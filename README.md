@@ -32,9 +32,14 @@ Demo Installation
 --
 
 ```
-https://github.com/miraytopal/Insightface-Face-Recognition
-pip install -r requirements.txt
+Download the model from below link
+https://drive.google.com/file/d/1FPldzmZ6jHfaC-R-jLkxvQRP-cLgxjCT/view
+pip install -r requirements.txt 
+OR
+pip install streamlit opencv-python matplotlib onnxruntime
+pip install insightface>=0.7.2
 streamlit run main.py
+During first run it will download some necessary model files by-default
 ```
 
 Sources:
